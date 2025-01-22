@@ -64,7 +64,7 @@ const FramerMotion = () => {
             <button
               key={item.id}
               onClick={() => setSelectedComponent(item.component)}
-              className={`w-full flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors ${
+              className={`w-full flex items-center px-4 py-2 text-sm text-gray-900 font-Geist hover:bg-blue-50 hover:text-blue-600 transition-colors ${
                 selectedComponent === item.component
                   ? 'bg-blue-50 text-blue-600 border-[1px] border-blue-300 rounded-lg'
                   : ''
